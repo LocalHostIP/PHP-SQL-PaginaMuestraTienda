@@ -1,0 +1,115 @@
+*{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica;
+    -webkit-font-smoothing: antialiased;
+    background: #EAEAEA;
+}
+
+h1{
+    color: #005661;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+h2{
+    text-align: center;
+    font-size: 22px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #005661;
+    padding: 30px 0;
+}
+
+.h2_nombre{
+    padding: 0 0;
+}
+
+.btn{
+    background-color: #00796b;
+    color: white;
+    padding: 10px 15px;
+    margin: 6px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+    font-size: 16px;
+}
+
+.btn-delete {
+    background-color: #f44336;
+  }
+
+.btn:hover {
+    opacity:1;
+}
+
+/* The alert message box */
+.alert {
+    padding: 20px;
+    background-color: #FF731D; /* Red */
+    color: white;
+    margin-bottom: 15px;
+    opacity: 0;
+    transition: opacity 0.6s; /* 600ms to fade out */ 
+}
+
+/* The close button */
+.closebtn {
+    margin-left: 15px;
+    color: white;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+/* When moving the mouse over the close button */
+.closebtn:hover {
+    color: black;
+}
+
+.linkRegresar{
+    color: black;
+    border: 2px solid #324960;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    margin: auto;
+    width: 30%;
+    color: white;
+}
+
+input,textarea{
+    width: 100%;
+    font-size: medium;
+}
+
+textarea{
+    font-size: 1rem;
+}
+
+.inputText,textarea{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid black;
+}
+
+.inputText:focus,text{
+    border: 3px solid #555;
+  }
+

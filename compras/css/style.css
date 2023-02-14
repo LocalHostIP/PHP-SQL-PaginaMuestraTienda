@@ -1,0 +1,52 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: #f9f7f7;
+}
+
+.navbar-bg-color {
+  background-color: #212121 !important;
+}
+
+.navbar-btn-color {
+  border-color: #fff;
+  color: #fff;
+}
+
+.navbar-ul-style {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-link {
+  color: #333;
+}
+
+.footer-link:hover {
+  color: #777;
+}
+
+.login {
+  background-color: #999;
+}
+
+.img-phone{
+  padding-left: 22%;
+  padding-right: 22%;
+  padding-top: 10px;
+}
+
+.bt-quantity{
+  height: 50%;
+  font-weight: bolder;
+  font-size: large;
+}
+
+.autoCenter{
+  width: 100%;
+  padding-left: 31%;
+}

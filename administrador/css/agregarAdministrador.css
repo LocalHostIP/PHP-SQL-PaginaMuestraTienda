@@ -1,0 +1,81 @@
+
+.divForm{
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 80%;
+    background-color: #324960;
+    box-shadow: 0px 35px 50px rgba( 0, 0, 0, 0.2 );
+    padding: 30px;
+    color: white;
+}
+
+select {
+    width: 100%;
+    padding: 16px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #f1f1f1;
+    font-size: medium;
+  }
+
+
+/* The alert message box */
+.alert {
+    padding: 20px;
+    background-color: #ff9800; /* Red */
+    color: white;
+    margin-bottom: 15px;
+    opacity: 0;
+    transition: opacity 0.6s; /* 600ms to fade out */ 
+  }
+
+/* The close button */
+.closebtn {
+    margin-left: 15px;
+    color: white;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+    
+}
+
+.alertCorreo {
+    padding: 10px;
+    background-color: #f44336; /* Red */
+    color: white;
+    margin-bottom: 15px;
+    opacity: 0;
+    transition: opacity 0.5s; /* 600ms to fade out */ 
+    font-size: small;
+    display: none;
+  }
+
+.custom-input-file {
+background-color: #fff;
+color: black;
+cursor: pointer;
+font-size: 16px;
+font-weight: bold;
+margin: 0 auto 0;
+min-height: 15px;
+overflow: hidden;
+padding: 10px;
+position: relative;
+text-align: center;
+}
+
+.custom-input-file .input-file {
+border: 10000px solid transparent;
+cursor: pointer;
+font-size: 10000px;
+margin: 0;
+opacity: 0;
+outline: 0 none;
+padding: 0;
+position: absolute;
+right: -1000px;
+top: -1000px;
+}
